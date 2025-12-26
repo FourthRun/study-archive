@@ -13,8 +13,8 @@ int main() {
         
         cin >> n;
 
-        if(n > 2) {
-            for(int j = 2; j < n; j++) {
+        if(n > 1) {
+            for(int j = 2; j * j <= n; j++) {
                 if(n % j == 0) {
                     check = false;
                     break;

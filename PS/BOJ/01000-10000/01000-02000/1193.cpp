@@ -17,12 +17,8 @@ int main() {
         count++;
     }
 
-    //cout << m;
-
     if(count % 2 == 0) cout << count - m << "/" << m;
     else cout << m << "/" << count - m;
-
-   
 
     return 0;
 }

@@ -24,7 +24,6 @@ int main() {
 
                     break;
                 }
-
                 else if(stk.top() == '(') {
                     stk.pop();
                 }

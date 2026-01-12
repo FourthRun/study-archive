@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int arr[14][14] = {0, };
+int arr[15][15] = {0, };
 
 int main() {
     ios_base::sync_with_stdio(false);
@@ -10,10 +10,10 @@ int main() {
 
     int t, a, b;
 
-    for(int i = 0; i < 14; i++) {
+    for(int i = 0; i < 15; i++) {
         arr[i][0] = 1;
 
-        for(int j = 1; j < 14; j++) {
+        for(int j = 1; j < 15; j++) {
             if(i == 0) {
                 arr[0][j] = j + 1;
             }

@@ -36,7 +36,7 @@ int main() {
 
     if(special) cout << (10 - (count % 10)) % 10;
     else {
-        num = 10 - count % 10;
+        num = (10 - count % 10) % 10;
 
         if(num % 3 == 0) cout << num;
         else if((num + 10) % 3 == 0) cout << (num + 10) / 3;

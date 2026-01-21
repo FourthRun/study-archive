@@ -16,7 +16,6 @@ int main() {
     else if(n > 3) cout << 3;
     else if(n > 1) cout << 2;
     else cout << 1;
-
     
     return 0;
 }

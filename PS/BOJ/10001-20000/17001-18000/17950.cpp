@@ -17,7 +17,7 @@ int main() {
 
         snowball = (snowball * x) % 1000000007;
         
-        count += (snowball * num) % 1000000007;
+        count = (count + (snowball * num)) % 1000000007;
     }
 
     cout << count;

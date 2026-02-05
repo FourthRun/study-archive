@@ -34,7 +34,7 @@ int main() {
     else {
         for(int i = 0; i < n; i++) {
             if(k < arr[i]) {
-                result = i;
+                result = i + 1;
 
                 break;
             }

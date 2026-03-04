@@ -27,9 +27,7 @@ int main() {
         }
     }
 
-    if(memo != -1) {
-        sum += v[v.size() - 1] - memo + 1 + k;   
-    }
+    if(memo != -1) sum += v[v.size() - 1] - memo + 1 + k;
     else sum += 1 + k;
 
     cout << sum;

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int dp[1001][1001];
+long long dp[1001][1001];
 
 int main() {
     int t, n, m;

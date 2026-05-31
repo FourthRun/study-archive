@@ -60,7 +60,6 @@ void dice3(int cnt) {
         check[i] = true;
         store[cnt] = i;
 
-
         dice3(cnt + 1);
 
         check[i] = false;
